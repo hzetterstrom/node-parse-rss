@@ -2,10 +2,10 @@ var feed = require('feed-read'),  // require the feed-read module
     http = require("http"),
     port = process.env.PORT || 5000, // allow heroku/nodejitsu to set port
     urls = [
-        "http://www.theguardian.com/technology/rss",
-        "http://feeds.bbci.co.uk/news/technology/rss.xml",
-        "http://feeds.skynews.com/feeds/rss/technology.xml",
-        "http://www.techmeme.com/feed.xml"
+        "https://zapier.com/engine/rss/1617716/hanszed-tw1"
+		//     "http://feeds.bbci.co.uk/news/technology/rss.xml",
+     //   "http://feeds.skynews.com/feeds/rss/technology.xml",
+       // "http://www.techmeme.com/feed.xml"
     ]; // Example RSS Feeds
 
 // load css styles
